@@ -1,4 +1,3 @@
-import React, { useState } from 'react';
 import Card from '../Card/Card';
 
 
@@ -8,18 +7,17 @@ import Card from '../Card/Card';
 function ListPokemon(props) {
     console.log(props)
     return (
-        <div>
+        < >
 
             {props.data.map((item) => {
                 return (<>
-                <h2>{item.name}</h2>
-                
-                <Card name={item.name} url={item.sprites.front_default}/>
+           
+                <Card name={item.name} url={item.sprites.front_default} key={item.id}  />
                 </>
                 )
             })}
 
-        </div>
+        </>
     )
 }
 
