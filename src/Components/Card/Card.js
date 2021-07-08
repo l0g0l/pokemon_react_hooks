@@ -9,7 +9,7 @@ function Card(props) {
 
     return (
         <div>
-            <h2>Nombre:</h2><p>{props.name}</p>
+            <h2>{props.name}</h2>
             <img src={props.url} alt={props.url} />
         </div>
     )

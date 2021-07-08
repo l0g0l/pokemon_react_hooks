@@ -75,8 +75,8 @@ export default function App() {
         <div className="App">
             <input className="input" type="text" name="buscador" onChange={(e) => handleChange(e)} value={nameInput} />
             {isSearching && <div>Searching ...</div>}
-            <div>
-                {!find ? <h3>Pokemon no encontrado</h3> : null}
+            <div className="listPokemons">
+                {!find ? <h3 className="errorPokemon">Pokemon no encontrado</h3> : null}
                 <ListPokemon data={pokemon} />
             </div>
         </div>

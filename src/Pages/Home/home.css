@@ -1,0 +1,12 @@
+.input  {
+    position: relative;
+    top: 200px;
+    left: 112px;
+}
+.listPokemons {
+    position: relative;
+    top: 200px;
+    text-align: center;}
+.errorPokemon {
+margin-bottom: 52px;
+}

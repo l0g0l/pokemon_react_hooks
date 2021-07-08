@@ -1,6 +1,5 @@
 import React from "react";
 import { useForm } from "react-hook-form";
-// import ReactSelect from "<react-selec></react-selec>t";
 
 import './form.css'
 
@@ -26,8 +25,8 @@ export default function App() {
             <span>{errors.img?.type === 'required' && "Por favor introduzca un imagen"}</span>
 
             <label for="">Tipo</label>
-            <select {...register("typeOne", { required: true })} placeholder="Introduce un ID">
-                <option value=""></option>
+            <select {...register("typeOne", { required: true })} >
+                <option value="tipo"></option>
                 <option value="Normal">Normal</option>
                 <option value="Electric">Electric</option>
                 <option value="Psychic">Psychic</option>

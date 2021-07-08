@@ -1,8 +1,9 @@
 .form {
   display: flex;
   flex-direction: column;
-  max-width: 300px;
-  margin: 200px 0 0 100px;
+  align-items: center;
+  top: 157px;
+  position: relative;
 }
 input {
   margin-bottom: 5px;
