@@ -4,7 +4,7 @@ import Details from './Details';
 function PokemonDetails() {
     return (
         <div>
-            <Details/>
+            <Details />
         </div>
     )
 }

@@ -3,9 +3,9 @@ import Form from '../../Components/Form/Form'
 
 function New() {
     return (
-        <>
-            <Form/>
-        </>
+        <div>
+            <Form />
+        </div>
     )
 }
 

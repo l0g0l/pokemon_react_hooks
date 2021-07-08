@@ -7,17 +7,17 @@ import Card from '../Card/Card';
 function ListPokemon(props) {
     console.log(props)
     return (
-        < >
+        <div >
 
             {props.data.map((item) => {
                 return (<>
-           
-                <Card name={item.name} url={item.sprites.front_default} key={item.id}  />
+
+                    <Card name={item.name} url={item.sprites.front_default} key={item.id} />
                 </>
                 )
             })}
 
-        </>
+        </div>
     )
 }
 
